@@ -1,5 +1,13 @@
-// In your JavaScript file (e.g., main.js)
+
+
 function showNotesPage() {
-  // Your code to display the Notes Page here
-  console.log("Notes Page displayed");
+ 
+  document.getElementById('landingPage').style.display = 'none';
+  document.getElementById('notesPage').style.display = 'block';
 }
+
+function saveNote() {
+  
+}
+
+
