@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- Landing Page -->
+  <div id="landingPage">
+    <a href="#" onclick="showNotesPage()">Go to Notes Page</a>
+  </div>
+
+  <!-- Notes Page -->
+  <div id="notesPage" style="display: none;">
+    <!-- Left Column - Existing Notes List -->
+    <div id="existingNotes">
+      <h2>Existing Notes</h2>
+      <ul id="notesList">
+        <!-- Existing notes will be listed here -->
+      </ul>
+    </div>
+
+    <!-- Right Column - Create New Note -->
+    <div id="newNote">
+      <h2>Create a New Note</h2>
+      <input type="text" id="noteTitle" placeholder="Note Title">
+      <textarea id="noteText" placeholder="Note Text"></textarea>
+      <button onclick="saveNote()">Save</button>
+    </div>
+  </div>
+
+  <script>
+    
+  </script>
+</body>
+  
+</html>
