@@ -1,6 +1,6 @@
 # Note Taking App
 
-# Heroku Deployed Link:https://gentle-garden-44759-ab98cbaf8116.herokuapp.com/#
+## Heroku Deployed Link:https://gentle-garden-44759-ab98cbaf8116.herokuapp.com/#
 
 ## Description
 An application that allows user to freely take down notes and saves them in the server for later usage if needed.
