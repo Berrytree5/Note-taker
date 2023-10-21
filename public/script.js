@@ -2,6 +2,7 @@
 const notes = [];
 
 function showNotesPage() {
+  // Hide the landing page and display the notes page
   document.getElementById('landingPage').style.display = 'none';
   document.getElementById('notesPage').style.display = 'block';
 }
@@ -55,5 +56,6 @@ function displayNote(index) {
   document.getElementById('noteTitle').value = note.title;
   document.getElementById('noteText').value = note.text;
 }
+
 
 displayNotes();
