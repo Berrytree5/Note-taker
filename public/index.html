@@ -5,7 +5,104 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header Styles */
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Landing Page Styles */
+  #landingPage {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  #landingPage a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  /* Notes Page Styles */
+  #notesPage {
+    display: none;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Left Column - Existing Notes List Styles */
+  #existingNotes {
+    text-align: left;
+    float: left;
+    width: 30%;
+  }
+  
+  #notesList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #notesList li {
+    margin-bottom: 10px;
+  }
+  
+  #notesList a {
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
+  #notesList a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Right Column - Create New Note Styles */
+  #newNote {
+    text-align: left;
+    float: left;
+    width: 70%;
+  }
+  
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  </style>
 </head>
 <body>
   <!-- Landing Page -->
@@ -32,7 +129,6 @@
     </div>
   </div>
 
-  <button onclick="showNotesPage()">Go to Notes Page</button>
   <script src="script.js"></script>
 </body>
 </html>
