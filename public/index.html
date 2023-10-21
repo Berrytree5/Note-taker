@@ -5,7 +5,74 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+
+  <style>
+   /* Style for the landing page */
+#landingPage {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Style for the Notes Page */
+#notesPage {
+  display: none;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Style for the notes list */
+#existingNotes {
+  text-align: left;
+  float: left;
+  width: 30%;
+}
+
+/* Style for the new note section */
+#newNote {
+  text-align: left;
+  float: left;
+  width: 70%;
+}
+
+/* Style for the input fields and buttons */
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Style for the notes list items */
+#notesList li {
+  margin-bottom: 10px;
+}
+
+/* Additional styling for anchor tags in the notes list */
+#notesList li a {
+  text-decoration: none;
+  color: #333;
+}
+
+#notesList li a:hover {
+  text-decoration: underline;
+}
+
+  </style>
+
 </head>
+<title>Note Taking App</title>
 <body>
   <!-- Landing Page -->
   <div id="landingPage">
@@ -31,9 +98,7 @@
     </div>
   </div>
 
-
-<button onclick="showNotesPage()">Go to Notes Page</button>
-<script src="/public/script.js"></script>
+  <button onclick="showNotesPage()">Go to Notes Page</button>
+  <script src="/public/script.js"></script>
 </body>
-  
 </html>
